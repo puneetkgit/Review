@@ -1,4 +1,4 @@
-If you go to "capstone_fotomatic_start\F1C1_start\resources\css\style.css" you can see the identifier   
+If you go to "resources\css\style.css" you can see the identifier   
 footer .content{
     font-size: .625rem;
   } 
