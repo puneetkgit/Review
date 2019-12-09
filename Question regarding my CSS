@@ -1,6 +1,14 @@
-If you go to "resources\css\style.css" you can see the identifier   
-footer .content{
-    font-size: .625rem;
-  } 
-under @media only screen and (max-width: 760px) should supposedly change the font-size of the footer to .625rem from .75rem when the width of the window is under 760px but apparently it is not working. I checked under the dev tools it is still fetching the .75 identifier.
+If you go to "resources\css\style.css" you can see the identifier(line 386)  
+
+    footer .content{
+        font-size: .625rem;
+      } 
+  
+under
+
+    @media only screen and (max-width: 760px){
+    }
+
+
+should supposedly change the font-size of the footer to .625rem from .75rem when the width of the window is under 760px but apparently it is not working. I checked under the dev tools it is still fetching the .75 identifier.
 Any clues where i might be going wrong?
